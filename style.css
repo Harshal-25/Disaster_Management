@@ -1,0 +1,62 @@
+*{
+    color: black;
+    text-align: center;
+}
+.navbar-brand img{
+    display: inline-block;
+    max-width: 30%;
+    height: auto;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+    }
+    .carousel-inner .carousel-item img{
+        height: 80vh;
+        /* margin-left: 20vw; */
+        margin-right: 20vw;
+        /* width: auto 50vw; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+img{
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.fs-1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 50vw;
+    background-color: rgb(0, 0, 0);    
+    }
+body{
+    /* background-color: rgb(244, 252, 255); */
+    margin: 2vw;
+    background-image:url("https://media.istockphoto.com/id/184944843/photo/blurred-gold-sparkles-background-with-darker-top-corners.jpg?b=1&s=170667a&w=0&k=20&c=uXhjl6mq3gFD7EB45Qv6AAU4pjTyFW41R6PPb6K4REQ=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    padding: 2px 2px;
+    font-family: Courier, monospace;
+    font-weight: bolder;
+    }
+.nav-item{
+    font-size: larger;
+}
+.nav-item:hover{
+  text-decoration:underline;
+  text-decoration-color: red;
+}
+.fs-1{
+  border-radius: 1vh;
+}
+.fs-1:hover{
+  color: red;
+  /* background-color: white; */
+  /* border: solid; */
+}
